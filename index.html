@@ -1,0 +1,15 @@
+---
+layout: default
+title: home
+---
+
+<h1>Hello </h1>
+
+{% for post in site.posts %}
+<div id="{{ post.anchor }}" >
+  <h2>{{ post.title }}</h2>
+  <div class="innerContent">
+    {{ post.content }}
+  </div>
+</div/>
+{% endfor %}

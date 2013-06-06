@@ -1,0 +1,1 @@
+var navigation = responsiveNav('responsiveNav');
