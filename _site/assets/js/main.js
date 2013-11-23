@@ -1,1 +1,13 @@
-var navigation = responsiveNav('responsiveNav');
+
+function init(){
+
+
+}
+
+onload=function (){
+  init();
+};
+
+onresize=function (){
+  init();
+};

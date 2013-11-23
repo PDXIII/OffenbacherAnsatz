@@ -1,15 +1,33 @@
 ---
-layout: default
-title: home
+layout: page
+title: Der Offenbacher Ansatz erklärt!
+id: home
 ---
 
-<h1>Hello </h1>
+<div class="jumbotron">
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+		<p>Dies ist der Versuch den <em>Offenbacher Ansatz</em> für mehr Menschen zugänglich und auch verständlich zu machen. Denn wenn man über Design reden möchte, dann sollte man sich auch ausdrücken können.</p>
+		<p><a class="btn btn-primary btn-lg" role="button" href="/OffenbacherAnsatz/foreword.html">Starten Sie hier! &raquo;</a></p>
+	</div>
+</div>
 
-{% for post in site.posts %}
-<div id="{{ post.anchor }}" >
-  <h2>{{ post.title }}</h2>
-  <div class="innerContent">
-    {{ post.content }}
-  </div>
-</div/>
-{% endfor %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<h2>Vorwort</h2>
+			<p>Wie kam es dazu, dass ich mich mit dem <em>Offenbacher Ansatz</em> beschäftigte? Wieso halte ich ihn für wichtig?</p>
+			<p><a class="btn btn-default" href="/OffenbacherAnsatz/foreword.html" role="button">Mehr dazu &raquo;</a></p>
+		</div>
+		<div class="col-md-4">
+			<h2>Einführung</h2>
+			<p>Dies ist die Einführung in den <em>Offenbacher Ansatz</em> mit meinen Worten erklärt und hoffentlich verständlich.</p>
+			<p><a class="btn btn-default" href="/OffenbacherAnsatz/intro.html" role="button">Mehr dazu &raquo;</a></p>
+		</div>
+		<div class="col-md-4">
+			<h2>Über das Projekt</h2>
+			<p>Wer bin ich eigentlich? Wer ist noch involviert? Wie geht es weiter?</p>
+			<p><a class="btn btn-default" href="/OffenbacherAnsatz/about.html" role="button">Mehr dazu &raquo;</a></p>
+		</div>
+	</div>
+</div>

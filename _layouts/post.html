@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{{ content }}
-{% if page.lightbox != null%}
-    {% include lightbox.html %}
-{% endif%}
+<header>
+  {% include mainNav.html %}
+</header>
+<div class="container">
+  {{ content }}
+</div>

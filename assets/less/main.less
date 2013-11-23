@@ -1,0 +1,23 @@
+@import 'bootstrap.less';
+@import 'bootstrap-theme.less';
+
+.sidebar{
+	overflow: hidden;
+	margin-bottom: 3em;
+	
+	li{
+		float: left;
+		list-style-type: none;
+		margin-right: 2em;
+		margin-bottom: .5em;
+	}
+
+	@media (min-width: 992px) {
+		position: fixed;
+		width: 20%;
+
+		li{
+			float: none;
+		}
+	}	
+}
