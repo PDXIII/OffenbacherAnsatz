@@ -1,5 +1,19 @@
-@import 'bootstrap-costum.less';
-// @import 'bootstrap-theme.less';
+@import 'bootstrap/bootstrap.less';
+@import 'variables.less';
+@import 'bootswatch.less';
+@import 'lightbox.less';
+
+
+button{
+	background: transparent;
+	border: none;
+	text-align: left;
+	padding: 0;
+	h3{
+		color: #2a6496;
+
+	}
+}
 
 .sidebar{
 	overflow: hidden;
@@ -20,3 +34,54 @@
 		}
 	}	
 }
+
+// .previewtile{
+// 	width: 25%;
+// 	height: auto;
+// 	overflow: hidden;
+// 	padding: .25em;
+// 	display: inline-block;
+// 	margin-bottom: .25em;
+
+
+// 	@media (min-width: 760px){
+// 		width: 12.5%;
+
+// 	}
+// }
+
+.previewtile{	
+	margin-bottom: .5em;
+}
+
+.closeButton{
+	margin-top: -.75em;
+}
+
+blockquote{
+	border: none;
+	p{
+		font-style: italic;
+		font-weight: 400;
+	}
+	li{
+		margin-bottom: 0.625rem;
+	}
+	small{
+		margin-top: 0.625rem;
+		text-align: right;
+	}
+}
+blockquote::before{
+		content:"»";
+		font-size: 3rem;
+		color: @brand-primary;
+		font-weight: 300;
+		line-height: (@font-size-base * 1.25);
+		margin-left: -2.5rem;
+		// padding-top: 2rem;
+		display: inline;
+		float: left;
+	}
+
+

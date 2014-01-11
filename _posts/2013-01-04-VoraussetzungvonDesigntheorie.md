@@ -6,7 +6,7 @@ date: 04. Januar 2013
 ---
 
 ###{{ page.title }}
-> »Die philosophische Grundlagenforschung versucht die Frage zu beantworten, wie Wissenschaft überhaupt möglich ist… Dabei kennzeichnet sich Wissenschaft voräufig einmal durch die Sache, also den Gegenstand, über den sie Wissen formuliert,  und zum anderen durch die Methode, die sie dazu verwendet.«(Maser: Einige Bemerkungen zum Problem einer Theorie im Design, 1972)
+> Die philosophische Grundlagenforschung versucht die Frage zu beantworten, wie Wissenschaft überhaupt möglich ist… Dabei kennzeichnet sich Wissenschaft voräufig einmal durch die Sache, also den Gegenstand, über den sie Wissen formuliert,  und zum anderen durch die Methode, die sie dazu verwendet. <small>Maser: Einige Bemerkungen zum Problem einer Theorie im Design, 1972</small>
 
 Kurz: Eine Theorie bedarf einer genauen Beschreibung des zu behandlenden Gegenstandes, so wie der Erkenntnismethode, die diesem Gegenstand angemessen ist.
 
@@ -34,7 +34,7 @@ Dies zeigt uns nach Gros ein Weg zurück zum alten Formbegriff und er gewährt u
 
 ####Erkenntnismethoden
 
-> »Die charakteristischen Merkmale der klassischen Wissenschaften sind kurz gefaßt folgende:
+> Die charakteristischen Merkmale der klassischen Wissenschaften sind kurz gefaßt folgende:
 
 > 1.  Das _Ziel_ der klassischen Wissenschaft ist es, ein System von objektiv wahren oder allgemeingültigen Sätzen aufzustellen.
 
@@ -44,9 +44,7 @@ Dies zeigt uns nach Gros ein Weg zurück zum alten Formbegriff und er gewährt u
 
 > 4.  Der _Weg_ der klassischen Wissenschaft, um das gesteckte Ziel zu erreichen, besteht in der BIldung von Fach und Präzisionssprachen.
 
-> 5.  Eine Folge davon ist das Enstehen einer Vielzahl von relativ autonomen Disziplinen.« 
-
->   (Maser: Einige Bemerkungen zum Problem einer Theorie im Design, 1972)
+> 5.  Eine Folge davon ist das Enstehen einer Vielzahl von relativ autonomen Disziplinen. <small>Maser: Einige Bemerkungen zum Problem einer Theorie im Design, 1972</small>
 
 Diese Definition soll uns helfen nach der richtigen Erkenntnismethode zu forschen. Zur Auswahl stehen uns auf der einen Seite die natur- und realwissenschaftlichen Methoden zur Verfügung, auf der anderen die geistes- und humanwissenschaftlichen Methoden. Schauen wir uns diese genauer an.
 
@@ -86,4 +84,4 @@ In den Geisteswissenschaften geht es nicht darum absolute, objektiv gültige Wah
 In beiden Fällen läuft es darauf hinaus, dass je mehr Hintergrundwissen ich habe und je feiner mein Wortschatz ist, desto tiefer werden meine Evidenzerlebnisse sein. Diese Erkenntnismethode wird nie so präzise Ergebnisse liefern können, wie ein Messverfahren (soll sie ja auch gar nicht), jedoch ist sie mehr eine rein subjektive Aussage des Betrachter.
 
 Diese Erkenntnismethode passt nach Gros‘ Ansicht besser zu einer Theorie der Produktsprache, oder wie er es lieber ausdrückt:
-> »Design ist zwar nicht meßbar, aber weitgeheng interpretierbar.«
+> Design ist zwar nicht meßbar, aber weitgeheng interpretierbar.
