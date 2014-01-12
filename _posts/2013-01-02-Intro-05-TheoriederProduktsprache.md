@@ -2,7 +2,7 @@
 layout: post
 title: Zur eigentlichen Theorie der Produktsprache
 category: intro
-date: 06. Januar 2013
+date: 02. Januar 2013
 ---
 
 ###{{ page.title }}

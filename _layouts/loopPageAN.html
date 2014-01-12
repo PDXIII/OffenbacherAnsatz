@@ -13,7 +13,11 @@ layout: default
 				<ul>
 					{% for post in site.posts reversed %}
 					{% if post.category == page.id %}
-					<li><a id="link{{page.id}}{{ forloop.index0 }}" class="postLink" href="#{{page.id}}{{ forloop.index0 }}">{{ post.title }}</a></li>
+					<li>
+						<a id="link{{page.id}}{{ forloop.index0 }}" class="postLink" href="#{{page.id}}{{ forloop.index0 }}">
+							{{ post.title }}
+						</a>
+					</li>
 					{% endif %}
 					{% endfor %}
 				</ul>
@@ -23,18 +27,27 @@ layout: default
 			{% for post in site.posts reversed %}
 			{% if post.category == page.id %}
 			<div id="{{page.id}}{{ forloop.index0 }}" class="post" >
-  			<div class="innerContent">
+        <button data-toggle="collapse" data-target="#{{page.id}}inner{{ forloop.index0 }}">
+			 		<h3 class="postTitle">
+          	{{ post.title }}
+      		</h3>
+        </button>
+  			<div id="{{page.id}}inner{{ forloop.index0 }}" class="innerContent collapse">
     			{{ post.content }}
     			<br />
     			{% if post.lightbox != null%}
 	  			<h5>Slideshow:</h5>
 	    		{% include lightbox.html %}
 					{% endif%}
+
+    			<button type="button" class="close closeButton"  data-toggle="collapse" data-target="#{{page.id}}inner{{ forloop.index0 }}">
+          	&times;
+        	</button>
   			</div>
 			</div>
+			<hr />
 			{% endif %}
 			{% endfor %}
 		</div>
 	</div>
 </div>
-

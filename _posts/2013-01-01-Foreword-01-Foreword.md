@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Wieso?
+title: Vorwort
 category: foreword
-date: 03. Januar 2013
+date: 01. Januar 2013
 ---
 
 ###{{ page.title }}

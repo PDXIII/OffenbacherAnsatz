@@ -2,7 +2,7 @@
 layout: post
 title: Disclaimer
 category: foreword
-date: 04. Januar 2013
+date: 01. Januar 2013
 ---
 
 ###{{ page.title }}:

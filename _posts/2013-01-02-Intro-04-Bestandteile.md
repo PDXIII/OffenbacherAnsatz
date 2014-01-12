@@ -2,7 +2,7 @@
 layout: post
 title: Bestandteile einer Theorie der Produktsprache
 category: intro
-date: 05. Januar 2013
+date: 02. Januar 2013
 ---
 
 ###{{ page.title }}

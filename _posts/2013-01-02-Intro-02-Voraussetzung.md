@@ -2,11 +2,11 @@
 layout: post
 title: Voraussetzung von Designtheorie
 category: intro
-date: 04. Januar 2013
+date: 02. Januar 2013
 ---
 
 ###{{ page.title }}
-> Die philosophische Grundlagenforschung versucht die Frage zu beantworten, wie Wissenschaft überhaupt möglich ist… Dabei kennzeichnet sich Wissenschaft voräufig einmal durch die Sache, also den Gegenstand, über den sie Wissen formuliert,  und zum anderen durch die Methode, die sie dazu verwendet. <small>Maser: Einige Bemerkungen zum Problem einer Theorie im Design, 1972</small>
+> Die philosophische Grundlagenforschung versucht die Frage zu beantworten, wie Wissenschaft überhaupt möglich ist… Dabei kennzeichnet sich Wissenschaft voräufig einmal durch die Sache, also den Gegenstand, über den sie Wissen formuliert,  und zum anderen durch die Methode, die sie dazu verwendet. <small>Siegfried Maser: Einige Bemerkungen zum Problem einer Theorie im Design, 1972</small>
 
 Kurz: Eine Theorie bedarf einer genauen Beschreibung des zu behandlenden Gegenstandes, so wie der Erkenntnismethode, die diesem Gegenstand angemessen ist.
 
@@ -44,20 +44,20 @@ Dies zeigt uns nach Gros ein Weg zurück zum alten Formbegriff und er gewährt u
 
 > 4.  Der _Weg_ der klassischen Wissenschaft, um das gesteckte Ziel zu erreichen, besteht in der BIldung von Fach und Präzisionssprachen.
 
-> 5.  Eine Folge davon ist das Enstehen einer Vielzahl von relativ autonomen Disziplinen. <small>Maser: Einige Bemerkungen zum Problem einer Theorie im Design, 1972</small>
+> 5.  Eine Folge davon ist das Enstehen einer Vielzahl von relativ autonomen Disziplinen. <small>Siegfried Maser: Einige Bemerkungen zum Problem einer Theorie im Design, 1972</small>
 
 Diese Definition soll uns helfen nach der richtigen Erkenntnismethode zu forschen. Zur Auswahl stehen uns auf der einen Seite die natur- und realwissenschaftlichen Methoden zur Verfügung, auf der anderen die geistes- und humanwissenschaftlichen Methoden. Schauen wir uns diese genauer an.
 
 #####Die natur- oder realwissenschaftliche Erkenntnismethode
 Gegenstand der Realwissenschaften ist das Reale. Resultierend aus der _Beobachtung_ und ihrer sprachlichen Formulierung lassen sich Sätze bilden, die auf einem Repertoire von _definierten_ Begriffen basieren. Diese _Realdefinitionen_ bestehen aus der Angabe eines Messverfahrens. Daraus lassen sich Sätze formulieren, die entweder wahr oder falsch sind. Wahr ist ein Satz, wenn er mit der Realität übereinstimmt. Diese Beobachtung wird mit einem _Experiment_ überprüft, das allerdings erst durch das Prinzip der _Induktion_ und der daraus gebildeten _Hypothese_ Allgemeingültigkeit erlangen kann. 
 
-Maser bildet zur Veranschaulichung folgendes Kettensatz:
+Siegfried Maser bildet zur Veranschaulichung folgenden Kettensatz:
 
-  Realität    + Beobachtung   = Protokollsätze
-  Protokollsätze  + Induktion     = Hypothese
-  Hypothese     + Verifikation  = Gesetze
-  Gesetze     +   Erklärung     = Theorie
-  Eventuelle Erklärung einer Theorie …
+  	Realität        + Beobachtung   = Protokollsätze
+  	Protokollsätze  + Induktion     = Hypothese
+  	Hypothese       + Verifikation  = Gesetze
+  	Gesetze         + Erklärung     = Theorie
+  	Eventuelle Erklärung einer Theorie …
 
 Ist ein solches Verfahren auf den Erkenntnisgegenstand _Produktsprache_ anwendbar? Nach Gros nicht!
 
