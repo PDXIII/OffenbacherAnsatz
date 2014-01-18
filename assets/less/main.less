@@ -3,6 +3,13 @@
 @import 'bootswatch.less';
 @import 'lightbox.less';
 
+// overwriting variables
+
+@font-size-base:          16px;
+
+@line-height-base:        1.5; // 24/16
+
+
 
 button{
 	background: transparent;
@@ -33,21 +40,6 @@ button{
 		}
 	}	
 }
-
-// .previewtile{
-// 	width: 25%;
-// 	height: auto;
-// 	overflow: hidden;
-// 	padding: .25em;
-// 	display: inline-block;
-// 	margin-bottom: .25em;
-
-
-// 	@media (min-width: 760px){
-// 		width: 12.5%;
-
-// 	}
-// }
 
 .previewtile{	
 	margin-bottom: .5em;
@@ -81,4 +73,30 @@ blockquote::before{
 	// padding-top: 2rem;
 	display: inline;
 	float: left;
+}
+
+div{
+	a{
+		overflow: hidden;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+footer{
+	border-top: 1px solid @gray-lighter;
+	padding: 1em;
+	margin-top: 3em;
+	p{
+		text-align: center;
+		font-style: italic;
+		font-size: @font-size-small;
+		span{
+			width: .5em;
+			// overflow: hidden;
+			display: inline-block;
+		}
+	}
 }
