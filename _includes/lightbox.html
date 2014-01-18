@@ -1,0 +1,28 @@
+<!-- <div class="preview row">
+  {% for item in post.lightbox | array_to_sentence_string %}
+  	
+  	<div class="previewtile col-xl-1  col-md-2 col-xs-6">
+  	  <a href="/OffenbacherAnsatz/assets/images/{{ item }}" data-lightbox="{{ post.title }}">
+  	    <img class="previewimage img-thumbnail" src="/OffenbacherAnsatz/assets/images/thumbs/{{ item }}"/>
+  	  </a>
+  	</div>
+  {% endfor %}
+</div> -->
+
+<div class="preview row">
+  {% for item in post.lightbox | array_to_sentence_string %}
+
+  	
+  	<div class="previewtile col-xl-2  col-sm-4 col-xs-6">
+  	  <a
+  	  	href="/OffenbacherAnsatz/assets/images/{{ item }}" 
+  	  	data-lightbox="{{ post.title }}"
+  	  	title=" {{ post.caption[forloop.index0] }}"
+  	  	>
+        <img class="previewimage img-rounded" src="/OffenbacherAnsatz/assets/images/thumbs/{{ item }}"/>
+        <!-- <img class="previewimage img-rounded" src="/OffenbacherAnsatz/assets/images/{{ item }}"/> -->
+
+  	  </a>
+  	</div>
+  {% endfor %}
+</div>

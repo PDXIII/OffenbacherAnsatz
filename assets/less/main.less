@@ -1,5 +1,25 @@
-@import 'bootstrap-costum.less';
-// @import 'bootstrap-theme.less';
+@import 'bootstrap/bootstrap.less';
+@import 'variables.less';
+@import 'bootswatch.less';
+@import 'lightbox.less';
+
+// overwriting variables
+
+@font-size-base:          16px;
+
+@line-height-base:        1.5; // 24/16
+
+
+
+button{
+	background: transparent;
+	border: none;
+	text-align: left;
+	padding: 0;
+	h3{
+		color: @brand-primary;
+	}
+}
 
 .sidebar{
 	overflow: hidden;
@@ -19,4 +39,64 @@
 			float: none;
 		}
 	}	
+}
+
+.previewtile{	
+	margin-bottom: .5em;
+}
+
+.closeButton{
+	margin-top: -.75em;
+}
+
+blockquote{
+	border: none;
+	p{
+		font-style: italic;
+		font-weight: 400;
+	}
+	li{
+		margin-bottom: 0.625rem;
+	}
+	small{
+		margin-top: 0.625rem;
+		text-align: right;
+	}
+}
+blockquote::before{
+	content:"»";
+	font-size: 3rem;
+	color: @brand-primary;
+	font-weight: 300;
+	line-height: (@font-size-base * 1.25);
+	margin-left: -2.5rem;
+	// padding-top: 2rem;
+	display: inline;
+	float: left;
+}
+
+div{
+	a{
+		overflow: hidden;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+footer{
+	border-top: 1px solid @gray-lighter;
+	padding: 1em;
+	margin-top: 3em;
+	p{
+		text-align: center;
+		font-style: italic;
+		font-size: @font-size-small;
+		span{
+			width: .5em;
+			// overflow: hidden;
+			display: inline-block;
+		}
+	}
 }

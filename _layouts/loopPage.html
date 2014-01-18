@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<div class="container">
+  <div class="row">
+		<div class="col-md-3">
+ 			<div class="sidebar">
+				<h2>{{page.title }}</h2>
+				<ul>
+					{% for post in site.posts reversed %}
+					{% if post.category == page.id %}
+					<li><a id="link{{page.id}}{{ forloop.index0 }}" class="postLink" href="#{{page.id}}{{ forloop.index0 }}">{{ post.title }}</a></li>
+					{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-8">
+			{% for post in site.posts reversed %}
+			{% if post.category == page.id %}
+			<div id="{{page.id}}{{ forloop.index0 }}" class="post" >
+  			<div class="innerContent">
+    			{{ post.content }}
+    			<br />
+    			{% if post.lightbox != null%}
+	  			<h5>Slideshow:</h5>
+	    		{% include lightbox.html %}
+					{% endif%}
+  			</div>
+			</div>
+			{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</div>
+

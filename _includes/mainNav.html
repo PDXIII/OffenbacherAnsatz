@@ -10,12 +10,25 @@
 			<a class="navbar-brand" href="/OffenbacherAnsatz/index.html">Der Offenbacher Ansatz</a>
 		</div>
 		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav">
+<!-- 			<ul class="nav navbar-nav">
 
 				<li><a href="/OffenbacherAnsatz/foreword.html">Vorwort</a></li>
 				<li><a href="/OffenbacherAnsatz/intro.html">Einführung</a></li>
 				<li><a href="/OffenbacherAnsatz/about.html">Über das Projekt</a></li>
 
+			</ul> -->
+
+			<ul class="nav navbar-nav">
+			{% assign sorted_pages = site.pages | sort:"name" %}
+			{% for p in sorted_pages %}
+			{% if p.id != "home" %}
+				<li>
+					<a href="/OffenbacherAnsatz{{ p.url }}">
+						{{ p.title }}
+					</a>
+				</li>
+			{% endif %}
+			{% endfor %}
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

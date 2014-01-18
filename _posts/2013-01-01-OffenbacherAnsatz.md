@@ -11,9 +11,9 @@ date: 01. Januar 2013
   
 
 ##Einführung
-_Jochen Gros 1983, Offenbach_
+__
 
-
+<small>Jochen Gros 1983, Offenbach</small>
 
 
 
