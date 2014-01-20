@@ -6278,17 +6278,14 @@ blockquote::before {
   display: inline;
   float: left;
 }
-div a {
-  overflow: hidden;
-}
-div a img {
-  width: 100%;
-  height: auto;
+.singleImage {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 footer {
   border-top: 1px solid #eeeeee;
-  padding: 1em;
-  margin-top: 3em;
+  padding: 1em 1em 0;
+  margin-top: 5em;
 }
 footer p {
   text-align: center;

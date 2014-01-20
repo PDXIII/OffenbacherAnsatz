@@ -58,13 +58,13 @@ Gegenstand der Realwissenschaften ist das Reale. Resultierend aus der **Beobacht
 
 Siegfried Maser bildet zur Veranschaulichung folgenden Kettensatz:
 
-  	Realität        + Beobachtung   = Protokollsätze
-  	Protokollsätze  + Induktion     = Hypothese
-  	Hypothese       + Verifikation  = Gesetze
-  	Gesetze         + Erklärung     = Theorie
+  	        Realität + Beobachtung   = Protokollsätze
+      Protokollsätze + Induktion     = Hypothese
+           Hypothese + Verifikation  = Gesetze
+  	         Gesetze + Erklärung     = Theorie
   	Eventuelle Erklärung einer Theorie …
 
-Ein Beispiel: Wir beobachten, dass ein Apfel zur Erde fällt. Das soll unser Protokollsatz sein, den wir induktionieren, d.h. auf die Allgemeinheit erweitern: Alles fällt zur Erde! Das probieren wir aus. Wir schnappen uns ein Messband und ein Stoppuhr, lassen unterschiedliche Gegenstände aus unterschiedlichen Höhen zu Boden fallen und nehmen die Zeit. Nach einigen Versuchen vergleichen wir die Ergebnisse und das Mathe-Genie in uns erkennt nicht nur, dass alles zu Boden gefallen ist, sondern dass es sich auch noch mit gesetzmäßigen 9,80665 m/s&sup2; beschleunigt. 
+Ein Beispiel: Wir beobachten, dass ein Apfel zur Erde fällt. Das soll unser Protokollsatz sein, den wir abstrahieren, d.h. auf die Allgemeinheit erweitern: Alles fällt zur Erde! Das probieren wir aus. Wir schnappen uns ein Messband und ein Stoppuhr, lassen unterschiedliche Gegenstände aus unterschiedlichen Höhen zu Boden fallen und nehmen die Zeit. Nach einigen Versuchen vergleichen wir die Ergebnisse und das Mathe-Genie in uns erkennt nicht nur, dass alles zu Boden gefallen ist, sondern dass es sich auch noch mit gesetzmäßigen 9,80665 m/s&sup2; beschleunigt. 
 
 Bitte, ersparen Sie es mir die Erklärung hierfür hin zu schreiben! Wenn Sie es genauer wissen möchten, dann folgen Sie dem Link zu [Schwerkraft](http://de.wikipedia.org/wiki/Schwerkraft).
 
@@ -80,6 +80,8 @@ Und das ist der Knackpunkt, warum die realwissenschaftliche Erkenntnismethode si
 ##### Das Semantische Differenzial
 
 An diesem Punkt bin ich nicht ganz einverstanden mit Gros. Er geht auf den nächsten Seiten kurz und sehr ablehnend auf das **Semantische Differential** ein. Ich denke der vornehmlich Grund dafür ist, dass es damals neu war und Marketing-Abteilungen es als die wissenschaftlichste Methode überhaupt priesen, um Design zu messen. Mittlerweile wissen wir, dass das nicht stimmt (oder wir sollten es wissen)! 
+
+{% include singleImage.html pic1="/OffenbacherAnsatz/assets/images/OffenbacherAnsatz-Abb02.jpg" %}
 
 Ein Semantisches Differenzial gibt dem Rezipienten die Möglichkeit, seine subjektiven Eindrücke in eine Tabelle einzuordnen. Dies kann z.B. benutzt werden um Vergleich zu ziehen, zwischen dem Eindruck den eine Marke beim Konsumenten hinterlässt und ihrer Produktgestaltung. Wenn man bei solchen Test auf grosse Differenzen stösst, so könnte das als Hinweis gedeutet werden, dass man vielleicht doch noch einmal zurück an den Zeichentisch muss, wobei deutliche Übereinstimmungen ein gutes Zeichen dafür sein können, dass man richtig liegt.
 
@@ -99,6 +101,9 @@ In den Geisteswissenschaften geht es nicht darum absolute, objektiv gültige Wah
 1.  Der Eskimo der 30 (wahrscheinlich sind es mehr) verschiedene Wörter für Schnee kennt. Für ihn ist es daher viel einfacher Schnee zu unterscheiden und zu beschreiben. Es ist für ihn offensichtlich, um welche Art von Schnee es sich handelt. Dies ist besonders praktisch, wenn man jemandem mitteilen möchte, in welchem Schnee man versinkt und auf welchem Schnee man gefahrlos gehen kann. Für mich ist Schnee in erster Linie weiss.
 
 2.  Der Experte für alte Sprachen. Um die Methodik der **Hermeneutik** zu erklären, die sich immer in einer Kreisbewegung zwischen den Polen Evidenzerlebnis (in diesem Fall eine Annahme) und Begründung bewegt. Bei dieser Methode ist man sich bewusst, dass unser Bezugspunkt nur eine Interpretations ist, wir aber dennoch davon ausgehen und versuchen eine Begründung dafür zu finden, die uns einen neues Aha-Erlebnis beschert, das wir dann wieder versuchen zu begründen… In diesem Schema geht es weiter bis unser Erkenntnisstand ausreichend ist.  Ein praktisches Beispiel finde sich auch in der Dechiffrierung von Geheimnachrichten. In der Regel sucht man nach den sich am Häufigsten wiederholenden Buchstaben oder Buchstabenkombinationen und macht sich dann Gedanken, was es heissen könnte. Dann versucht man die gewonnenen Erkenntnis auf den Rest anzuwenden. Ergibt sich ein neuer Aha-Moment, liegt man richtig, wenn nicht muss man eine andere Annahme formulieren. Im Fall [Enigma](http://de.wikipedia.org/wiki/Enigma_(Maschine\)) waren es die Worte wie »Oberkommando Wehrmacht«, die es den alliierten Spezialisten ermöglichte, den Code der Deutschen zu knacken. 
+
+{% include singleImage.html pic1="/OffenbacherAnsatz/assets/images/OffenbacherAnsatz-Abb03.jpg" %}
+
 
 In beiden Fällen läuft es darauf hinaus, dass je mehr Hintergrundwissen ich habe und je feiner mein Wortschatz ist, desto tiefer werden meine Evidenzerlebnisse sein. Diese Erkenntnismethode wird nie so präzise Ergebnisse liefern können, wie ein Messverfahren (soll sie ja auch gar nicht), jedoch ist sie mehr eine rein subjektive Aussage des Betrachter.
 
