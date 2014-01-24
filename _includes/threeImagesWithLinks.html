@@ -1,0 +1,22 @@
+<!-- receives nine params caption1, pic1, link1, caption2, pic2, … -->
+
+<div class="singleImage row">
+	<div class="col-sm-4">
+		<img class="img-thumbnail img-responsive" src="{{ include.pic1 }}" alt="{{ include.caption1 }}" />
+		<a href="{{ include.link1 }}">
+			<small>{{ include.caption1 }}</small>
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<img class="img-thumbnail img-responsive" src="{{ include.pic2 }}" alt="{{ include.caption2 }}" />
+		<a href="{{ include.link2 }}">
+			<small>{{ include.caption2 }}</small>
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<img class="img-thumbnail img-responsive" src="{{ include.pic3 }}" alt="{{ include.caption3 }}" />
+		<a href="{{ include.link3 }}">
+			<small>{{ include.caption3 }}</small>
+		</a>
+	</div>
+</div>	
